@@ -10,5 +10,7 @@ public interface IUserManageService
 	
 	public User_PO find(String userName);
 	
+	public boolean exist(String userName);
+	
 	public void delete(long id);
 }
