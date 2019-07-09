@@ -1,7 +1,9 @@
 package com.mackerelpike.uims.backend.dao;
 
-import com.mackerelpike.uims.backend.Result_VO;
+import java.util.List;
+
 import com.mackerelpike.uims.backend.po.User_PO;
+import com.mackerelpike.uims.backend.utils.Result_VO;
 
 public interface IUserDao 
 {
@@ -12,4 +14,6 @@ public interface IUserDao
 	public void delete(User_PO user);
 	
 	public Result_VO<User_PO> add(User_PO user);
+	
+	public List<User_PO> getList(int limit, int offset);
 }

@@ -1,7 +1,7 @@
 package com.mackerelpike.uims.backend.service;
 
-import com.mackerelpike.uims.backend.Result_VO;
 import com.mackerelpike.uims.backend.po.User_PO;
+import com.mackerelpike.uims.backend.utils.Result_VO;
 
 public interface IUserLoginService 
 {

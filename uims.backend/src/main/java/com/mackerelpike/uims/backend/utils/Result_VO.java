@@ -1,6 +1,4 @@
-package com.mackerelpike.uims.backend;
-
-import com.mackerelpike.uims.backend.utils.ErrorEnum;
+package com.mackerelpike.uims.backend.utils;
 
 /**
  * 表示方法调用后返回的结果
